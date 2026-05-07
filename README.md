@@ -1,24 +1,70 @@
-## Дипломный проект. Задание 1: Юнит-тесты
+# Graduation Project. Assignment 1: Unit Tests
 
-### Автотесты для проверки программы, которая помогает заказать бургер в Stellar Burgers
+Automated tests for a program that helps users order burgers in Stellar Burgers.
 
-### Реализованные сценарии
+---
 
-Созданы юнит-тесты, покрывающие классы `Bun`, `Burger`, `Ingredient`, `Database`
+## ✅ Implemented Scenarios
 
-Процент покрытия 100% (отчет: `htmlcov/index.html`)
+Unit tests were created to cover the following classes:
 
-### Структура проекта
+- `Bun`
+- `Burger`
+- `Ingredient`
+- `Database`
 
-- `praktikum` - пакет, содержащий код программы
-- `tests` - пакет, содержащий тесты, разделенные по классам. Например, `bun_test.py`, `burger_test.py` и т.д.
+Test coverage: **100%**  
+Coverage report: `htmlcov/index.html`
 
-### Запуск автотестов
+---
 
-**Установка зависимостей**
+## 📁 Project Structure
 
-> `$ pip install -r requirements.txt`
+```text
+praktikum/      # Package containing the application code
+tests/          # Package containing unit tests grouped by classes
+                 # Example: bun_test.py, burger_test.py, etc.
+```
 
-**Запуск автотестов и создание HTML-отчета о покрытии**
+---
 
->  `$ pytest --cov=praktikum --cov-report=html`
+## 🚀 Running the Tests
+
+### Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run tests and generate HTML coverage report
+
+```bash
+pytest --cov=praktikum --cov-report=html
+```
+
+---
+
+## 📊 Coverage Report
+
+After running the tests, the HTML coverage report will be available at:
+
+```text
+htmlcov/index.html
+```
+
+Open this file in your browser to view detailed coverage statistics.
+
+---
+
+## 🛠 Technologies
+
+- Python
+- pytest
+- pytest-cov
+
+---
+
+## 👩‍💻 Author
+
+Natalia Kozit  
+QA Automation Engineer
